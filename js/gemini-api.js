@@ -268,7 +268,7 @@
 class GeminiAPI {
     constructor() {
         // Reference the API key from config file if it exists, otherwise use empty string
-        this.apiKey = window.config?.geminiApiKey || 'AIzaSyCR96GTJ47jkxjICP97kiACfrzdxZDaLaM';
+        this.apiKey = window.config?.geminiApiKey || 'AIzaSyBkuotFw73RL2NLrdrsIGndlpjtlh-RruY';
         this.apiUrl = 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent';
         this.isApiKeySet = !!this.apiKey; // Set to true if API key exists
         this.contextHistory = [];
